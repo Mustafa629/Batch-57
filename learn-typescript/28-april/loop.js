@@ -1,17 +1,18 @@
+"use strict";
 //do while (condition) 1 dafa run karega, condition ko bad maeen check karega
 // for(exp1;exp2;exp3) {}
 console.log("Hello, World");
-var temprature = 15;
+let temprature = 15;
 if (temprature < 20) {
     console.log("It is cold");
 }
-var x = 10, y = 3;
+let x = 10, y = 3;
 console.log("Apple Left=", x - y);
-var firstName = "Ghulam";
-var SecondName = "Mustafa";
-var FullName = "".concat(firstName, " ").concat(SecondName);
+let firstName = "Ghulam";
+let SecondName = "Mustafa";
+let FullName = `${firstName} ${SecondName}`;
 console.log(FullName);
-var num = 5;
+let num = 5;
 if (num > 3) {
     console.log("Yes");
 }
@@ -30,3 +31,5 @@ for (x = 1; x <= 50; x++) {
         console.log("Buzz");
     }
 }
+//const temp=[2,15,202,5,30];
+// console.log(Math.max(temp));
