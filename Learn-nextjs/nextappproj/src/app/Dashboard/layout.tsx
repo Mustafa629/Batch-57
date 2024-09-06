@@ -1,4 +1,4 @@
-import { Freckle_Face } from 'next/font/google'
+
 import React, { ReactNode } from 'react'
 
 function layout({children}:{children:ReactNode}) {

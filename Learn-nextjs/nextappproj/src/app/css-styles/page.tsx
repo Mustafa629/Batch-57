@@ -2,12 +2,6 @@
 import React from "react";
 import "./style.css";
 
-const paragraphStyle = {
-  color: "white",
-  backgroundColor: "DodgerBlue",
-  padding: "10px",
-  fontFamily: "Arial",
-};
 
 const page = () => {
   return (
